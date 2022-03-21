@@ -15,6 +15,8 @@
 
 I want to improve my hard skills and become a strong Forntend Developer that is why I am here.
 
+---
+
 #### Skills
 
 - HTML, CSS (SCSS, styled components),
@@ -23,6 +25,33 @@ I want to improve my hard skills and become a strong Forntend Developer that is 
 - MongoDB, MySQL,
 - AntDesign, Bootstrap, Material-UI,
 - Git
+
+---
+
+#### Code example
+
+```
+function spinWords(string) {
+
+  const arrayFromString = string.split(' ');
+  for (let i=0; i < arrayFromString.length; i++) {
+    if (arrayFromString[i].length >= 5) {
+       let reversedWord = arrayFromString[i].split('').reverse().join('');
+       arrayFromString[i] = reversedWord;
+    }
+  }
+  const result = arrayFromString.join(' ');
+  return result;
+};
+```
+
+---
+
+#### Pet projects
+
+- [Photo gallery - front](https://github.com/DianaIsseyeva/photo-gallery-front)
+- [Photo gallery - back](https://github.com/DianaIsseyeva/photo-gallery-back)
+- [Layout](https://dianaisseyeva.github.io/index.html)
 
 ---
 
